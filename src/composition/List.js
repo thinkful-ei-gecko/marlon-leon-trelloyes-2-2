@@ -8,7 +8,7 @@ function List(props) {
         <header className="List-header">
           <h2>{props.header}</h2>
         </header>
-        <div className="List-cards">
+          <div className="List-cards">
           {props.cardIds.map(obj => <Card title={obj.title} content={obj.content} key={obj.id} /> )}
         </div>
       </section>
